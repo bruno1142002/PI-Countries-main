@@ -35,7 +35,7 @@ const About = () => {
                         </div>
             </div>
 
-                            <h3 className="Bottom-About">Made with <span  className="corazon">❤</span> by Alejo Totaro.</h3>
+                        
         </div>
     )
 }
