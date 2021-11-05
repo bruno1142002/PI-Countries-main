@@ -1,0 +1,54 @@
+.Box-LandingPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /*ESTO SI LO IMPORTO EN MISMO HOME*/
+  }
+
+.LandingPage{
+    width: 130vh;
+    padding: 3vh 3vh 3vh 7vh;
+    height: 70vh;
+    margin: 2vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    backdrop-filter: blur(3px);
+    border-radius: 15px;
+    
+     
+}
+
+.Margin-LandingPage{
+    margin: 15vh 0 0 5vh;
+}
+
+.Title-LandingPage{
+    
+    font-size: 57px;
+    color: #b3b3b3;
+    text-shadow: -2px 2px black;
+}
+
+.Info-LandingPage{
+    font-size: 25px;
+    color: black;
+    text-shadow: 1px 1px #b3b3b3;
+    font-weight: bold;
+    margin-bottom: 2em;
+    
+}
+
+.animation{
+    animation: rock 2s infinite linear;
+    cursor: pointer;
+}
+
+
+@keyframes rock{
+    50%{
+        transform: translateY(1rem);
+    }
+}

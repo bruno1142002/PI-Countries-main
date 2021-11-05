@@ -1,0 +1,41 @@
+.card{
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    /* border: solid 2px black; */
+    /* backdrop-filter: blur(10px); */
+    background-color: var(--main-color);
+    width: 20em;
+    height: 25em;
+    box-sizing: border-box;
+    margin: 3em 0 3em 0;
+    border-radius: 7px;
+}
+
+.card{transition: transform 0.5s;}
+.card:hover{
+    transform:scale(1.1);
+   
+}
+.imgContainer{
+    margin-top: 2em;
+    padding: 0.3em;
+}
+
+.img{
+    width: 180px;
+    height: 150px;
+}
+
+.container{
+    color: var(--main-color-text);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.Span-Card{
+    color: #b3b3b3;
+}
