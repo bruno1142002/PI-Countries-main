@@ -29,9 +29,9 @@ const About = () => {
 
                         <div className="About-My">
                             <h1 className="About-Text">My social networks and where to contact me.</h1>
-                            <a href="https://www.linkedin.com/in/alejo-totaro-a65448196/" target="_blank" rel="noreferrer"> <img className="links" alt="LinkedinImg" src={Linkedin}></img> </a>
-                            <a href="mailto:alejocs1998@gmail.com" target="_blank" rel="noreferrer"> <img className="links" alt="GmailImg" src={Gmail}></img> </a>
-                            <a href="https://github.com/Atotaro98" target="_blank" rel="noreferrer"> <img className="links" alt="Github" src={Github}></img> </a>
+                            <a href="" target="_blank" rel="noreferrer"> <img className="links" alt="LinkedinImg" src={Linkedin}></img> </a>
+                            <a href="mailto:brunosentinelli@gmail.com" target="_blank" rel="noreferrer"> <img className="links" alt="GmailImg" src={Gmail}></img> </a>
+                            <a href="https://github.com/bruno1142002" target="_blank" rel="noreferrer"> <img className="links" alt="Github" src={Github}></img> </a>
                         </div>
             </div>
 
