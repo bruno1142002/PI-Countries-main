@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import Cards from '../Cards/Cards';
-import { getAll } from '../../actions/actions';
-import { getByName } from '../../actions/actions';
-import Pagination from '../../helper/pagination';
+import { getAll } from '../../Actions/actions';
+import { getByName } from '../../Actions/actions';
+import Pagination from '../../Helper/pagination';
 import './HomePage.css'
 
 

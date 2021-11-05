@@ -2,7 +2,7 @@ import React from 'react'
 import { useEffect, useState }  from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 import axios from 'axios'
-import { getAll} from '../../actions/actions'
+import { getAll} from '../../Actions/actions'
 import './AddActivity.css'
 
 

@@ -1,11 +1,11 @@
 import { Redirect, Route } from 'react-router';
 import './App.css';
-import { Nav } from './components/Nav/Nav';
-import LandingPage  from './components/LandingPage/LandingPage';
-import CountryDetails from './components/CountryDetails/CountryDetails'
-import AddActivity from './components/AddActivity/AddActivity';
-import HomePage from './components/HomePage/HomePage';
-import About from './components/About/About';
+import { Nav } from './Components/Nav/Nav';
+import LandingPage  from './Components/LandingPage/LandingPage';
+import CountryDetails from './Components/CountryDetails/CountryDetails'
+import AddActivity from './Components/AddActivity/AddActivity';
+import HomePage from './Components/HomePage/HomePage';
+import About from './Components/About/About';
 
 function App() {
   return (
@@ -15,8 +15,8 @@ function App() {
       <Route  path={["/","/home", "/country", "/add", "/about"]}><Nav/></Route>
       <Route  exact path={["/","/home"]}><HomePage/></Route>
       <Route  exact path="/country/:id"><CountryDetails/></Route>     
-      <Route  exact path="/add"><AddActivity/></Route>
-      <Route  exact path="/about"><About/></Route>
+      <Route  exact path="/Add"><AddActivity/></Route>
+      <Route  exact path="/About"><About/></Route>
     </div>
   );
 }

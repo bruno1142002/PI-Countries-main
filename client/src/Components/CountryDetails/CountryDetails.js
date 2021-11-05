@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router';
 import { useDispatch, useSelector } from 'react-redux';
-import { getById } from '../../actions/actions';
+import { getById } from '../../Actions/actions';
 import  ReturnImg  from './return.svg'
 import './CountryDetails.css'
 
