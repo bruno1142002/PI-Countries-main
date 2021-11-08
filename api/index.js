@@ -7,7 +7,7 @@ const { Countries } = require('./src/db');
 
 let CreateDataBase = async () => {
 
-let countries = await axios.get(`https://restcountries.eu/rest/v2/all`)
+let countries = await axios.get(`https://restcountries.com/v2/all`)
 await Promise.all(countries.data.map((c) =>{
     let data = {  
         name: c.name,

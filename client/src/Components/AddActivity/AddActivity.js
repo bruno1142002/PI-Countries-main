@@ -32,7 +32,7 @@ const AddActivity = () => {
     }
     useEffect(() => {
         dispatch(getAll())
-    },[]);
+    },[dispatch]);
 
     async function handlerSubmit(e){
         e.preventDefault()

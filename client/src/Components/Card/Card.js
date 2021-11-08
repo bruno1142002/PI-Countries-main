@@ -10,6 +10,7 @@ const Card = (props) => {
             <div className="container" >
                  <h4>{props.name}</h4>
                 <h4>Region : <span className="Span-Card">{props.region}</span></h4>
+                <h4>Population : {props.population} </h4>
             </div>
         </div>
     )

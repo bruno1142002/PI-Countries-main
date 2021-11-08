@@ -44,7 +44,7 @@ const HomePage = () => {
 
     useEffect(() => {
         dispatch(getAll())
-    }, []);
+    }, [dispatch]);
 
 
     useEffect(() => {

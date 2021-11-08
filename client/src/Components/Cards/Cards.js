@@ -17,6 +17,7 @@ const Cards = ({countries}) => {
                         name={c.name}
                         flag={c.flag}
                         region={c.region}
+                        population = {c.population}
                         
                     />
                 </Link>
