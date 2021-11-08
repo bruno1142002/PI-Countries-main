@@ -18,7 +18,7 @@ const About = () => {
                 <p>This page was created for an individual work, proposed to us by the Soy Henry Bootcamp.</p>
             </div>
                         
-                        <h1 className="About-Text">Using the following technologies:</h1>
+                        <h1 className="About-Text">We use the following technologies:</h1>
                         <div className="technologies-div">
                             <img  className="technologies" alt="ExpressImg" src={Express}></img>
                             <img  className="technologies" alt="PostgresImg" src={Postgres}></img>
@@ -28,7 +28,7 @@ const About = () => {
                         </div>
 
                         <div className="About-My">
-                            <h1 className="About-Text">My social networks and where to contact me.</h1>
+                            <h1 className="About-Text">These are the social networks where you can find me.</h1>
                             <a href="https://www.linkedin.com/in/bruno-rocha-1a3604216/" target="_blank" rel="noreferrer"> <img className="links" alt="LinkedinImg" src={Linkedin}></img> </a>
                             <a href="mailto:brunosentinelli@gmail.com" target="_blank" rel="noreferrer"> <img className="links" alt="GmailImg" src={Gmail}></img> </a>
                             <a href="https://github.com/bruno1142002" target="_blank" rel="noreferrer"> <img className="links" alt="Github" src={Github}></img> </a>
