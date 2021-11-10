@@ -11,8 +11,8 @@ const LandingPage = () => {
         <div  className="Box-LandingPage">
             <div className="LandingPage">
                 <div className="Margin-LandingPage">
-                <h1 className="Title-LandingPage">Welcome To Countries</h1>
-                <p className="Info-LandingPage">Here you can Search any Country and Add Activities him.</p>
+                <h1 className="Title-LandingPage">Bienvenido a Countries</h1>
+                <p className="Info-LandingPage">En esta pagina podras encontrar tus paises favoritos y añadirles Actividades a los mismos.</p>
                 <Link to="NavBar" spy={true} smooth={true}><img className="animation" alt="arrow" src={Arrow}></img></Link>
                 {/* <Link to="/home">
                 

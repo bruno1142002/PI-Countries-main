@@ -14,11 +14,11 @@ const About = () => {
         <div className="About">
                     <div className="About-Background">
             <div className="About-Title">
-                <h1 >Thanks for stopping by this page.</h1>
-                <p>This page was created for an individual work, proposed to us by the Soy Henry Bootcamp.</p>
+                <h1 >Gracias por visitar "Countries"</h1>
+                <p>Esta pagina fue creada para un trabajo individual propuesto por el Bootcamp Soy Henry.</p>
             </div>
                         
-                        <h1 className="About-Text">We use the following technologies:</h1>
+                        <h1 className="About-Text">Usamos las siguientes tecnologias:</h1>
                         <div className="technologies-div">
                             <img  className="technologies" alt="ExpressImg" src={Express}></img>
                             <img  className="technologies" alt="PostgresImg" src={Postgres}></img>
@@ -28,7 +28,7 @@ const About = () => {
                         </div>
 
                         <div className="About-My">
-                            <h1 className="About-Text">These are the social networks where you can find me.</h1>
+                            <h1 className="About-Text">Aqui estan algunas de mis redes donde pueden contactarme.</h1>
                             <a href="https://www.linkedin.com/in/bruno-rocha-1a3604216/" target="_blank" rel="noreferrer"> <img className="links" alt="LinkedinImg" src={Linkedin}></img> </a>
                             <a href="mailto:brunosentinelli@gmail.com" target="_blank" rel="noreferrer"> <img className="links" alt="GmailImg" src={Gmail}></img> </a>
                             <a href="https://github.com/bruno1142002" target="_blank" rel="noreferrer"> <img className="links" alt="Github" src={Github}></img> </a>
